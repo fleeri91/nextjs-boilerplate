@@ -12,10 +12,6 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "^6.5.16",
-    "@types/node": "18.14.1",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
     "clsx": "^1.2.1",
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",
@@ -28,6 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
+    "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
@@ -36,7 +33,10 @@
     "@storybook/manager-webpack5": "^6.5.16",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
+    "@types/node": "^18.14.2",
     "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
     "eslint-plugin-storybook": "^0.6.11",
