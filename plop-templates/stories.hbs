@@ -1,0 +1,19 @@
+import React from 'react';
+import {{properCase name}} from './{{properCase name}}';
+
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
+export default {
+	title: '3. Components/{{properCase name}}',
+	component: {{properCase name}},
+};
+
+export const Default = () => {
+	const title = 'Title';
+
+	return <{{properCase name}} title={title} />;
+};
+Default.story = { parameters: { docs: { disable: true } } };
+
+export const Demo = () => {
+	return <{{properCase name}} title="My title" />;
+};
