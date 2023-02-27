@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '@styles/globals.css'
 import type { AppProps } from 'next/app'
 import Router from 'next/router';
 import 'nprogress/nprogress.css';
