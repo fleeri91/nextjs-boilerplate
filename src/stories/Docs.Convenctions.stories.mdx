@@ -2,11 +2,39 @@ import { Meta } from '@storybook/addon-docs';
 
 <Meta title="1. Documentations/2 - Conventions" />
 
-# Introduction
+# Conventions
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+### Atomic design
+Atomic design is a methodology composed of five distinct stages working together to create interface design systems in a more deliberate and hierarchical manner. The five stages of atomic design are: 
+1. Atoms
+2. Molecules
+3. Organisms
+4. Templates
+5. Pages
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+Atomic design is atoms, molecules, organisms, templates, and pages concurrently working together to create effective interface design systems.
+
+[**More information**](https://bradfrost.com/blog/post/atomic-web-design/)
+
+#### Atoms
+Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input, animations or a button.
+Atoms can also include more abstract elements like colour palettes, fonts and even more invisible aspects of an interface like animations.
+
+They can be considered the smallest possible components and can be applied in any context, globally or within other components and Templates,
+besides having many states, such as this example of a button: disabled, hover, different sizes, etc.
+
+#### Molecules
+In chemistry, molecules are a group of two or more atoms that bind together and demonstrate new qualities. Consider the water molecule.
+It’s a combination of hydrogen and oxygen that together, create something new. With Atomic Design, designers can say the same about groups of components.
+
+Atoms don’t make sense as a single component, but they can be combined to form Molecules.
+In web development, molecules are small, functional units that have the responsibility to do one thing.
+
+#### Organisms
+Organisms are the combination of Molecules that work together or even with atoms that compose more elaborate interfaces. At this level, the components begin to have the final shape, but they are still ensured to be independent, portable and reusable enough to be reusable in any content.
+
+They can consist of similar and/or different molecule types. For example, a NavigationBar organism might consist of diverse components like a Logo, PrimaryNavigation, SearchForm, etc.
+
+The Organisms at play can show the same Molecule over and over again, like most card-based lists, or show many different Molecules and Atoms. The bottom line is that Atomic Design means creating a way to design that is almost like a flexible puzzle, where designers can exchange Organisms within the same page according to what is needed.
+
+Building up from Molecules to Organisms encourages creating standalone, portable, reusable components.
