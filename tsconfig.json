@@ -16,13 +16,13 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@hoc/*": ["./src/hoc/*"],
-      "@hooks/*": ["./src/hooks/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@utils/*": ["./src/utils/*"],
+      "@components/*": ["src/components/*"],
+      "@hoc/*": ["src/hoc/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
       "types": ["src/types/"]
     }
   },
