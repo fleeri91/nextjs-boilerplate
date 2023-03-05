@@ -1,15 +1,13 @@
-import type { DefaultProps } from 'types';
-
-interface {{properCase name}}Props extends DefaultProps {}
+interface {{properCase name}}Props {
+	children?: React.ReactNode;
+}
 
 /** Main description for this component. */
 const {{properCase name}} = ({
-	children,
-  className,
-  ...htmlAttributes 
+	children
 }: {{properCase name}}Props): JSX.Element | null => {
 	return (
-		<div {...htmlAttributes}>
+		<div>
 			{children}
 		</div>
 	);
