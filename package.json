@@ -43,6 +43,8 @@
     "babel-loader": "^8.3.0",
     "eslint-plugin-storybook": "^0.6.11",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.4",
     "tailwindcss": "^3.2.7"
   }
 }
