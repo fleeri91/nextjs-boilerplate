@@ -1,11 +1,11 @@
-# Next js boilerplate
+# Next.js boilerplate
 
 ```sh
 npx create-next-app --example https://github.com/fleeri91/nextjs-boilerplate
 ```
 
 ## Scripts
-#### Run Next js in development
+#### Run Next.js in development
 ```sh
 npm run dev
 ```
